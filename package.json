@@ -9,14 +9,14 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/surjithctly/cloudflare-skype-chat.git"
+    "url": "git+https://github.com/surjithctly/Skype-Live-Chat.git"
   },
   "author": "Surjith S M",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CloudflareApps/cloudflare-skype-chat/issues"
+    "url": "https://github.com/surjithctly/Skype-Live-Chat/issues"
   },
-  "homepage": "https://github.com/CloudflareApps/cloudflare-skype-chat#readme",
+  "homepage": "https://github.com/surjithctly/Skype-Live-Chat#readme",
   "dependencies": {},
   "devDependencies": {
     "standard": "^9.0.2"
