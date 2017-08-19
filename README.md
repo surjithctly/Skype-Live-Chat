@@ -13,6 +13,8 @@ Integrate Skype Live chat feature in to any website using Cloudflare app.
 
 ## Details
 
+![skype](https://user-images.githubusercontent.com/1884712/29484735-7c455f7a-84e2-11e7-8692-53e3fe1cac9f.gif)
+
 #### `app.js`
 
 This is where the magic happens. 
