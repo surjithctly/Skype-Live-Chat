@@ -1,0 +1,74 @@
+{
+    "resources":
+    {
+        "body": [
+        {
+            "type": "script",
+            "src": "./app.js"
+        }]
+    },
+    "preview": {
+    "handlers": [
+      {
+        "options": ["_default"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+     "options": {
+    "properties": {
+      "receiver": {
+        "order": 0,
+        "title": "Receiver",
+        "type": "object",
+        "properties": {
+          "type": {
+            "order": 0,
+            "title": "Who should receive the call?",
+            "type": "string",
+            "format": "radios",
+            "default": "user",
+            "enum": ["user", "bot"],
+            "enumNames": {
+              "user": "A Skype user",
+              "bot": "A Microsoft bot"
+            }
+          },
+          "username": {
+            "order": 0,
+            "type": "string",
+            "title": "Skype Username",
+            "placeholder": "JessieLorem",
+            "showIf": {
+              "receiver.type": "user"
+            }
+          },
+          "botname": {
+            "order": 0,
+            "type": "string",
+            "title": "Microsoft Bot or App ID",
+            "description": "More details at <a href=\"https://dev.botframework.com/bots\" class=\"more\" target=\"_blank\">Bot Framework Portal</a>",
+            "placeholder": "chat_bot123",
+            "showIf": {
+              "receiver.type": "bot"
+            }
+          }
+        }
+      },
+      "buttoncolor": {
+        "title": "Button Color",
+        "type": "string",
+        "format": "color",
+        "order": 2,
+        "default": "#00aff0"
+      },
+      "messagecolor":{
+        "title": "Message Bubble Color",
+        "type": "string",
+        "format": "color",
+        "order": 3,
+        "default": "#f1f1f4"
+      }
+    }
+  }
+}

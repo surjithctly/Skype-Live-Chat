@@ -1,0 +1,32 @@
+{
+  "name": "skype-live-chat",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard --fix ./*.js || true"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surjithctly/cloudflare-skype-chat.git"
+  },
+  "author": "Surjith S M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CloudflareApps/cloudflare-skype-chat/issues"
+  },
+  "homepage": "https://github.com/CloudflareApps/cloudflare-skype-chat#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}
